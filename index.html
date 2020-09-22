@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Simple Calculator</title>
+    </head>
+    <body>
+        <h1>Result</h1>
+        <p id="result"></p>
+        <script type="text/javascript">
+            var result = document.getElementById("result");
+            var x1 = parseFloat(prompt("Enter a number:"));
+            var x2 = parseFloat(prompt("Enter a second number:"));
+            result.innerHTML = String(x1 + x2);
+        </script>
+    </body>
+</html>
